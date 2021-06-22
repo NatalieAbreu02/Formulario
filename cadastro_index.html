@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link rel="icon" href="cadastro.png">
+    <link rel="stylesheet" href="stylee.CSS">
+</head>
+<body>
+    <div>
+        <h1 class="titulo"><strong>Cadastro no sistema</strong></h1>
+        <p><h2 class="subtitulo">Complete com as suas informações.</h2></p>
+        <br>
+    </div>
+
+
+    <forms>
+        <fieldset>
+            <div>
+                <label>Nome:</label>
+                 <input type="text" name="nome" id="nome">
+            </div>
+            <br>
+
+            <div>
+                <label>Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <label>Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label>Qual é a suas aplicações?</label>
+            <label>
+                <input type="radio" name="devweb" id="frontend">
+                Front-End
+            </label>
+            <label>
+                <input type="radio" name="devweb" id="Back-End">
+                Back-End
+            </label>
+            <label>
+                <input type="radio" name="devweb" id="Fullstack">
+                Fullstack
+            </label>
+        </div>
+        <br>
+        <div> 
+            <label>Indique sua data de nascimento:</label>
+            <input type="date" name="data" id="data">
+        </div>
+        <br>
+        <div>
+            <label>Selecione o modo que deseja:</label>
+            <select name="selecionar">
+                <option value="escolher">Selecionar</option>
+                <option value="escolher">Estágio</option>
+                <option value="escolher">Emprego efetivo</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Conte para nós suas habilidades e conhecimentos:</label>
+            <input type="text" name="habilidades" id="habilidades">
+        </div>
+        <br>
+        <div>
+            <button type="reset" value="limpar">Limpar</button>
+            <button type="submit" value="enviar">Enviar</button>
+        </div>
+    </forms>
+
+</body>
+</html>
